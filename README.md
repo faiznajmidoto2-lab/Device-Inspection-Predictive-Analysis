@@ -31,10 +31,24 @@ I deployed the model using Streamlit, allowing users to:
 - Run the machine learning pipeline (encoding, SMOTE, scaling) with a single click.
 - View actual vs. predicted values and download the results.
 
-##  Visual Highlights
-*(Upload your screenshots and reference them here)*
-![ROC Curve](images/roc_curve.png)
-![Streamlit GUI](images/streamlit_gui.png)
+## 📈 Visual Highlights
+
+### 1. Handling Extreme Class Imbalance (SMOTE)
+![Class Imbalance](images/01_class_imbalance.png)
+*The original dataset had a severe 96:4 imbalance. SMOTE was applied to the training data to ensure the model could actually learn the characteristics of a failing device.*
+
+### 2. Model Evaluation (ROC Curve)
+![ROC Curve](images/02_roc_curve.png)
+*Comparing the performance of ANN, kNN, Decision Tree, and XGBoost. The Decision Tree achieved the highest AUC (0.810), proving strong discriminative ability.*
+
+### 3. Streamlit Deployment (GUI)
+![Streamlit App](images/03_streamlit_app.png)
+*The final model was deployed into a Streamlit web app, allowing users to upload a CSV, run preprocessing, and view predictions without writing any code.*
+
+### 4. Statistical Feature Selection
+![ANOVA](images/04a_anova.png)
+![Chi-Square](images/04b_chisquare.png)
+*Used ANOVA (for numerical features) and Chi-Squared tests (for categorical features) to drop statistically insignificant variables before modeling.*
 
 ## 🚀 How to Run
 1. Install dependencies: `pip install -r requirements.txt`
