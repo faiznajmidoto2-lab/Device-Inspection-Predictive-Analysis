@@ -1,4 +1,8 @@
 # Predictive Analysis of Device Inspection Outcomes
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
 ## 📌 Project Background
 Regulatory inspections are critical for safety and compliance, but they are often reactive and resource-intensive. This project—a collaborative machine learning initiative for a fictional consulting firm (PredictX)—aims to transition inspections from reactive to proactive by predicting whether a device will **Pass or Fail** an inspection.
